@@ -1,0 +1,50 @@
+ *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url("images/snowflakes.jpg");
+        text-align: center;
+        background-color: green;
+        background-repeat: no-repeat;
+        background-size: 100% 120%;
+    }
+    #header1{
+        font-size: 32pt;
+        border: 10px solid black;
+        width: 250px;
+        margin-left: 570px;
+        background-color: green;
+        font-family: arial black;
+        
+       
+    }
+    .border{
+        width: 400px;
+        height: 400px;
+        background-color: blanchedalmond;
+        margin-left: 499px;
+        margin-top: 70px;
+        border: 5px dashed rgb(0, 140, 255);
+        background-image: url("images/tree.jpg");
+        background-size: 100% 100%;
+    }
+    .cal{
+       
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24pt;
+        margin-top: 15px;
+        color: whitesmoke;
+    }
+    button{
+        margin-top: 50px;
+        background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+    }
