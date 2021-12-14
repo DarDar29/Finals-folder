@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <title> My Calculator</title>
+</head>
+<body>
+    <p id="header1"><span style="color: red;">My</span> <br><span style="color: blue;">Calculator</span></p>
+    <div class="border">
+        <div class="cal">
+            <label for="num1" style="margin-right: 30px; color: whitesmoke;"><b>First Number:</b></label>
+            <input type="text" name="num1" id="num1" size="15" value=""></input>
+            <br>
+            <br>
+            <label for="num2"><b>Second Number:</b></label>
+            <input type="text" name="num2" id="num2" size="15" value=""></input>
+            <br>
+            <br>
+            <label for="total"><b>Result:</b></label>
+            <input type="text" name="total" id="total" size="15" value="" disabled="true" style="background-color: whitesmoke;"></input>
+            <br>
+            <button id="Sum" onclick="Computesum()">+</button>
+            <button id="Sub" onclick="Computesub()">-</button>
+            <button id="Pro" onclick="Computepro()">x</button>
+            <button id="Quo" onclick="Computequo()">/</button>
+            <button id="About" onclick="about()" style="background-color: green;">About</button>
+            <button id="Clear" onclick="clearr()" style="background-color: red;">Clear</button>
+        </div>
+    </div> 
+</body>
+<script src="Calc.js">
+
+  
+</script>
+</html>
